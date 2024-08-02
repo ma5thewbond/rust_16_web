@@ -1,0 +1,11 @@
+Users:
+
+<table>
+    {%- for row in users %}
+    <tr>
+        {%- for column in row %}
+        <td>{{ column }}</td>
+        {%- endfor %}
+    </tr>
+    {%- endfor %}
+</table>
